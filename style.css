@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+#contenedor{
+    width : 1200px;
+    margin: 20% auto;
+    background: rgb(209, 209, 209); 
+    clear: both; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+} 
+
+header{
+    background: rgb(59, 58, 58);
+    height: 100px;
+}
+
+
+#logo{
+  display:inline-block;
+  height: 100px;;
+  width: 200px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+
+
+#menu il a{
+    text-decoration: none;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    justify-content: center; 
+     
+}
+
+
+
+
+
+
+
+#menu il{
+    float: right;
+    list-style: none;
+    padding: 5px;
+    margin-right: 5px;
+    
+    
+   
+    
+}
+
+#menu{
+    
+    display:inline-flex;
+        
+}
+
+
+
+
+
+/* Estilos del banner */
+
+.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+ #bant.card-title{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 350px;
+    color: gold;
+    text-align: right;
+    margin-right: 80px;
+    font-size: x-large;
+
+
+}
+
+#p1.card-text{
+    display:flex;
+    flex-direction: row-reverse;
+    
+    flex-wrap: wrap-reverse;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin-right: 80px;
+    font-weight: bold;
+    font-size:small;
+    
+    
+}
+
+.card-img{
+    filter:brightness(0.4);
+    
+}
+
+#boton{
+    margin-right: 20px;
+    background: none;
+    border-color:black;
+    border-radius: 3px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#boton2{
+    background-color: green;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+/* Fin estilos del banner */
+
+
+h6{
+    text-align: center;
+    padding-top: 10px;
+    font-size: x-small;
+}
+
+h1{
+    text-align: center;
+}
+
+
+/* Estilos de las cards */
+
+#cars{
+    box-sizing: border-box;
+    width: 820px;
+    height: 320px;
+    display: inline-flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+   
+    
+}
+
+.col{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+/* fin estilos card */
+
+article{
+    padding-top: 160px;
+    
+    
+   
+}
+
+.col-md-8{
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+
+
+
+.card-title1{
+    color: black;
+    margin-left: 200px;
+}
+
+.card-text1{
+    color: black;
+    margin-left: 200px;
+}
+
+
+
+.card-text2{
+    margin-left: 200px;
+}
+
+
+/* Formulario */
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#caja{
+    text-align: left;
+    padding-top: 10px;
+}
+
+#boton1{
+    background: green;
+    padding-left: 355px;
+    padding-right: 355px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    text-align: center;
+    size: 100;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Formulario */
+
+
+/* Pie de pagina */
+
+#pie{
+    background-color: midnightblue;
+    margin-top: 10px;
+    height: 80px;
+    width: 1200px;
+}
+
+#pie{
+   
+    display: inline-block;
+    
+}
+
+#pie il a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    
+}

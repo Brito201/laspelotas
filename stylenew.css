@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+#contenedor{
+    width : 1200px;
+    margin: 20% auto;
+    
+    clear: both; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+} 
+/*HEADER*/
+header{
+    background: rgb(59, 58, 58);
+    height: 100px;
+}
+
+
+#logo{
+  display:inline-block;
+  height: 100px;;
+  width: 200px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+
+
+#menu il a{
+    text-decoration: none;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    justify-content: center; 
+     
+}
+
+#menu il{
+    float: right;
+    list-style: none;
+    padding: 5px;
+    margin-right: 5px;
+    
+    
+   
+    
+}
+
+#menu{
+    
+    display:inline-flex;
+        
+}
+
+/*HEADER*/
+
+
+
+
+.card{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-color: aqua;
+
+}
+
+.card .card-body{
+    text-align: center;
+}
+
+.card-text{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+
+h5{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    width: 800px;
+    margin-left: 200px;
+}
+
+.mb-3{
+    width: 780px;
+    margin-left: 210px;
+}
+
+
+#compraTotal{
+    width: 800px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PIE DE PAGINA */
+
+#pie{
+    background-color: midnightblue;
+    margin-top: 10px;
+    height: 80px;
+    width: 1200px;
+}
+
+#pie{
+   
+    display: inline-block;
+    
+}
+
+#pie il a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    
+}
